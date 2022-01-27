@@ -30,7 +30,7 @@
 				"blur",
 				"calm emotions",
 				"pass without trace",
-				"catnap",
+				"catnap|xge",
 				"greater invisibility",
 				"compulsion",
 				"animate objects",
@@ -57,7 +57,7 @@
 						],
 						"s3": [
 							"pass without trace",
-							"catnap"
+							"catnap|xge"
 						],
 						"s4": [
 							"greater invisibility",
