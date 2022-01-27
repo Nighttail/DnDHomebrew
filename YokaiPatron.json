@@ -135,7 +135,7 @@
 		{
 			"name": "Soothing Whispers",
 			"entries": [
-				"Starting at 1st level, the Yokai's voice whispers to you, soothing your nerves. You gain advantage on all checks to resist being charmed, frightened and to maintain concentration on a spell."
+				"Starting at 1st level, the Yokai's voice whispers to you, soothing your nerves. You gain advantage on all checks to resist being {@condition charmed}, {@condition frightened} and to maintain concentration on a spell."
 			],
 			"source": "TYP",
 			"page": 1,
