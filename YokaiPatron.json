@@ -2,15 +2,15 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "GOOtweaks",
-				"abbreviation": "GOOtw",
-				"full": "Tweaked Patron: Great Old One",
+				"json": "YokaiPatron",
+				"abbreviation": "TYP",
+				"full": "The Yokai Patron",
 				"authors": [
-					"u/SargeBriar",
-					"u/VampireBagel_"
+					"Sargebiffy",
+					"Nighttail"
 				],
-				"version": "0.2",
-				"url": "https://www.reddit.com/r/UnearthedArcana/comments/aiwoo6/tweaked_patron_great_old_one_gaze_into_the_eye_of/",
+				"version": "1.0",
+				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -19,49 +19,49 @@
 	},
 	"subclass": [
 		{
-			"name": "The Great Old One, Tweaked",
-			"shortName": "Great Old One, Tweaked",
-			"source": "GOOtweaks",
+			"name": "The Yokai",
+			"shortName": "Yokai",
+			"source": "YokaiPatron",
 			"subclassFeatures": [
-				"The Great Old One|Warlock||Great Old One, Tweaked|GOOtweaks|1",
-				"Visions of Horror|Warlock||Great Old One, Tweaked|GOOtweaks|6",
-				"Labyrinthine Conundrum|Warlock||Great Old One, Tweaked|GOOtweaks|10",
-				"Create Thrall|Warlock||Great Old One, Tweaked|GOOtweaks|14"
+				"Soothing Whispers|Warlock||Yokai|YokaiPatron|1",
+				"Yokai Balance|Warlock||Yokai|YokaiPatron|6",
+				"Spirit Ward|Warlock||Yokai|YokaiPatron|10",
+				"Summon Guardian Spirit|Warlock||Yokai|YokaiPatron|14"
 			],
 			"subclassSpells": [
-				"dissonant whispers",
-				"Tasha's hideous laughter",
-				"detect thoughts",
-				"phantasmal force",
-				"clairvoyance",
-				"sending",
-				"Evard's black tentacles",
-				"phantasmal killer",
-				"dominate person",
-				"telekinesis"
+				"goodberry",
+				"disguise self",
+				"calm emotions",
+				"blur",
+				"pass without trace",
+				"catnap|xge",
+				"greater invisibility",
+				"compulsion",
+				"animate objects",
+				"Bigby's hand"
 			],
 			"additionalSpells": [
 				{
 					"expanded": {
 						"s1": [
-							"dissonant whispers",
-							"Tasha's hideous laughter"
+							"goodberry",
+							"disguise self"
 						],
 						"s2": [
-							"detect thoughts",
-							"phantasmal force"
+							"calm emotions",
+							"blur"
 						],
 						"s3": [
-							"clairvoyance",
-							"sending"
+							"pass without trace",
+							"catnap|xge"
 						],
 						"s4": [
-							"Evard's black tentacles",
-							"phantasmal killer"
+							"greater invisibility",
+							"compulsion"
 						],
 						"s5": [
-							"dominate person",
-							"telekinesis"
+							"danimate objects",
+							"Bigby's hand"
 						]
 					}
 				}
@@ -72,57 +72,25 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Aberrant Metamorphosis",
+			"name": "Onigiri Beam",
 			"prerequisite": [
 				{
-					"pact": "Chain",
-					"patron": "The Great Old One, Tweaked"
+					"patron": "Yokai",
+					"spell": [
+						"Eldritch Blast"
+					]
 				}
 			],
 			"entries": [
-				"Otherworldly magic touches your familiar. Your familiar gains additional hit points equal to your warlock level, its creature type becomes aberration, and you can use your bonus action to make its appearance alien, or revert it to normal.",
-				"While your familiar appears alien, it has advantage on Charisma ({@skill Intimidation}) checks, and you can use your action to make it do something unnatural, such as gibber in maddening voices. A creature within 10 feet of the familiar that sees this must succeed on a Wisdom saving throw against your warlock spell save DC or be {@condition frightened} of the familiar for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"Once you've made your familiar do something unnatural, you can't do so again until you finish a short or long rest."
+				"If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains 3d4+3 hit points. At 10th level, this increases to 5d4+5 hit points."
 			],
-			"source": "GOOtweaks",
+			"source": "YokaiPatron",
 			"featureType": [
 				"EI"
 			]
 		},
 		{
-			"name": "Secrets of Khirad",
-			"prerequisite": [
-				{
-					"patron": "The Great Old One, Tweaked"
-				}
-			],
-			"entries": [
-				"You use long forgotten knowledge to alter your magics, casting them with nothing but a thought. You can ignore the verbal component of a warlock spell if it also has a somatic component. If the spell is on your expanded spell list, it instead requires no components."
-			],
-			"source": "GOOtweaks",
-			"featureType": [
-				"EI"
-			]
-		},
-		{
-			"name": "Touch of Tharizdun",
-			"prerequisite": [
-				{
-					"pact": "Blade",
-					"patron": "The Great Old One, Tweaked"
-				}
-			],
-			"entries": [
-				"Your pact weapon becomes capable of carving through both flesh and mind. Once per turn, when you hit a creature with a weapon attack made with your pact weapon, you can cause the attack to deal psychic damage instead of its regular type. If you do so, the creature has disadvantage on the next attack roll it makes before the end of its next turn.",
-				"Additionally, when you hit a creature with a weapon attack made with your pact weapon, you can glimpse into its mind. You immediately learn if the creature is under any mind influencing effects and what those effects are, such as a geas spell, and learn the creature's greatest fears and desires. Once you glimpse a creature's mind, you can't do so again until you finish a long rest."
-			],
-			"source": "GOOtweaks",
-			"featureType": [
-				"EI"
-			]
-		},
-		{
-			"name": "Unfathomable Understanding",
+			"name": "Yokai Reserves",
 			"prerequisite": [
 				{
 					"level": {
@@ -131,100 +99,58 @@
 							"name": "Warlock"
 						}
 					},
-					"pact": "Tome",
-					"patron": "The Great Old One, Tweaked",
-					"spell": [
-						"Contact other plane"
-					]
+					"patron": "Yokai",
 				}
 			],
 			"entries": [
-				"Your Book of Shadows becomes linked to an aspect of your patron you can call upon for knowledge, at the risk of your sanity. You can cast {@spell contact other plane} as a ritual. When you cast {@spell contact other plane}, you make a saving throw using your warlock spellcasting ability instead of Intelligence, and the aspect writes its answers in your Book of Shadows, in arcane script only you can understand. The first time you fail your saving throw against the spell each day, you become insane for 1 minute instead of until the end of a long rest.",
-				"Additionally, you can unerringly recall any information written in your Book of Shadows."
+				"Once per long rest, as an action, you can tap into extra magic reserves and regain a Warlock spell slot."
 			],
-			"source": "GOOtweaks",
-			"featureType": [
-				"EI"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"_": {
-							"ritual": [
-								"contact other plane"
-							]
-						}
-					}
-				}
-			]
-		},
-		{
-			"name": "Voice of Ulban",
-			"prerequisite": [
-				{
-					"patron": "The Great Old One, Tweaked"
-				}
-			],
-			"entries": [
-				"Your ability to touch the minds of other creatures expands dramatically. When you use your Awakened Mind feature to communicate telepathically, the range increases to 120 feet, you can communicate with a number of creatures equal to your Charisma modifier (minimum 1) simultaneously, and creatures without telepathy can respond to your telepathic messages, but can't initiate or terminate contact."
-			],
-			"source": "GOOtweaks",
+			"source": "YokaiPatron",
 			"featureType": [
 				"EI"
 			]
 		},
 		{
-			"name": "Whispers Beyond the Veil",
+			"name": "Spiritual Bond",
 			"prerequisite": [
 				{
 					"level": {
-						"level": 3,
+						"level": 15,
 						"class": {
 							"name": "Warlock"
 						}
 					},
-					"patron": "The Great Old One, Tweaked"
+					"patron": "Yokai"
 				}
 			],
 			"entries": [
-				"You can draw your consciousness close to the veil between worlds, listening to whispers from the denizens of the Far Realm. You can cast {@spell augury} without spending a spell slot, and without material components. When cast this way, you can gain advantage on one attack roll or ability check of your choice that you make in the next hour, if it relates to the course of action you received an omen for.",
-				"Once you cast {@spell augury} this way, you can't do so again until you finish a short or long rest."
+				"When you use the {@i Summon Guardian Spirit} feature; its unarmed attack now deals 2d8 + 4 magic bludgeoning damage. In addition, once per day the Guardian Spirit may take the multi-attack Action twice, and when the Guardian reaches 0 hit points, you can use your reaction to spend a Warlock spell slot and restore it to full health."
 			],
-			"source": "GOOtweaks",
+			"source": "YokaiPatron",
 			"featureType": [
 				"EI"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"_": [
-							"augury"
-						]
-					}
-				}
 			]
-		}
-	],
+		},
 	"subclassFeature": [
 		{
-			"name": "The Great Old One",
-			"source": "GOOtweaks",
-			"page": 105,
+			"name": "The Yokai",
+			"source": "YokaiPatron",
+			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Old One, Tweaked",
-			"subclassSource": "GOOtweaks",
+			"subclassShortName": "Yokai",
+			"subclassSource": "YokaiPatron",
 			"level": 1,
 			"entries": [
-				"Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.",
+				"You have forged a pact with a yokai spirit. These wandering spirits commonly take the form of animals, humanoids or sometimes a combination of the two. Regardless of their chosen guise they will very rarely show anyone their true form and will generally do their utmost to hide it. The nature of a yokai will usually depend on it's conception and can vary from malevolent, mischievous to friendly.",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
-						"The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						"The Yokai lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 						{
 							"type": "table",
-							"caption": "Great Old One Expanded Spells",
+							"caption": "Yokai Expanded Spells",
 							"colLabels": [
 								"Spell Level",
 								"Spells"
@@ -236,23 +162,23 @@
 							"rows": [
 								[
 									"1st",
-									"{@spell dissonant whispers}, {@spell Tasha's hideous laughter}"
+									"{@spell goodberry}, {@spell disguise self}"
 								],
 								[
 									"2nd",
-									"{@spell detect thoughts}, {@spell phantasmal force}"
+									"{@spell calm emotions}, {@spell blur}"
 								],
 								[
 									"3rd",
-									"{@spell clairvoyance}, {@spell sending}"
+									"{@spell pass without trace}, {@spell catnap|xge}"
 								],
 								[
 									"4th",
-									"{@spell Evard's black tentacles}, {@spell phantasmal killer}"
+									"{@spell greater invisibility}, {@spell compulsion}"
 								],
 								[
 									"5th",
-									"{@spell dominate person}, {@spell telekinesis}"
+									"{@spell animate objects}, {@spell Bigby's hand}"
 								]
 							]
 						}
@@ -260,67 +186,66 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Mind|Warlock||Great Old One, Tweaked|GOOtweaks|1"
+					"subclassFeature": "Yokai Balance|Warlock||Yokai|YokaiPatron|1"
 				}
 			]
 		},
 		{
-			"name": "Awakened Mind",
+			"name": "Yokai Balance",
 			"entries": [
-				"Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. While communicating telepathically, you can alter your voice to sound however you wish. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+				"Starting at 1st level, the Yokai's voice whispers to you, soothing your nerves. You gain advantage on all checks to resist being {@condition charmed}, {@condition frightened} and to maintain concentration on a spell."
 			],
-			"source": "GOOtweaks",
-			"page": 105,
+			"source": "YokaiPatron",
+			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Old One, Tweaked",
-			"subclassSource": "GOOtweaks",
+			"subclassShortName": "Yokai",
+			"subclassSource": "YokaiPatron",
 			"level": 1,
 			"header": 1
 		},
 		{
-			"name": "Visions of Horror",
-			"source": "GOOtweaks",
-			"page": 105,
+			"name": "Yokai Balance",
+			"source": "YokaiPatron",
+			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Old One, Tweaked",
-			"subclassSource": "GOOtweaks",
+			"subclassShortName": "Yokai",
+			"subclassSource": "YokaiPatron",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you can flood the minds of those who assault you with terrifying, incomprehensible images from your patron's realm. When a creature within 60 feet damages you, you can use your reaction to force the creature to make an Intelligence saving throw against your warlock spell save DC. On a failed save, the creature takes psychic damage equal to 1d10 + half your warlock level and is {@condition frightened} for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. On a successful save, the creature takes half as much damage and isn't {@condition frightened}.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creature's next attack against you is made with disadvantage. This effect lasts until the end of the creature's next turn.",
+				"You can use this feature a number of times equal to your proficency bonus and you regain all uses after a long rest."
 			]
 		},
 		{
-			"name": "Labyrinthine Conundrum",
-			"source": "GOOtweaks",
-			"page": 105,
+			"name": "Spirit Ward",
+			"source": "YokaiPatron",
+			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Old One, Tweaked",
-			"subclassSource": "GOOtweaks",
+			"subclassShortName": "Yokai",
+			"subclassSource": "YokaiPatron",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, the outer layers of your mind become alien in scope - becoming indecipherable to those who would plunder it, while revealing the true nature of the world around you. You are immune to any effect that would sense your emotions, read your thoughts, or determine you are lying, unless you allow it.",
-				"Additionally, you can use your action to open your mind to the truth of the world. For 10 minutes, you gain {@sense truesight} out to 60 feet. Once you do so, you can't do so again until you finish a short or long rest."
+				"At 10th level your connection to the spirits protects you against death. At the end of a long rest you gain the benefits of the {@spell Death Ward} spell, which lasts until it triggers or your next long rest. When the ward is triggered you can use your reaction to fire a beam of vengeful energy at an enemy within 120ft of you, doing 2d10+5 Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to 1d10 + your warlock level.", 
+				"The temporary hit points increase to 2d10 + your warlock level at leve1 17."
 			]
 		},
 		{
-			"name": "Create Thrall",
-			"source": "GOOtweaks",
-			"page": 105,
+			"name": "Summon Guardian Spirit",
+			"source": "YokaiPatron",
+			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Old One, Tweaked",
-			"subclassSource": "GOOtweaks",
+			"subclassShortName": "Yokai",
+			"subclassSource": "YokaiPatron",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition incapacitated} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell of 5th level or higher is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
-				"You can communicate telepathically with the {@condition charmed} creature as long as the two of you are on the same plane of existence. The {@condition charmed} creature regards you as a trusted friend to be heeded and protected. Although the creature isn't under your control, it takes your requests or actions in the most favorable way it can."
+				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a Guardian Spirit. The guardian appears in an unoccupied space within 60 ft. of you. It has its own initiative and its own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on its next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
 			]
 		}
 	]
