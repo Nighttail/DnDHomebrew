@@ -71,67 +71,6 @@
 			"classSource": "PHB"
 		}
 	],
-	"optionalfeature": [
-		{
-			"name": "Onigiri Beam",
-			"prerequisite": [
-				{
-					"patron": "Yokai",
-					"spell": [
-						"Eldritch Blast"
-					]
-				}
-			],
-			"entries": [
-				"If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains 3d4+3 hit points. At 10th level, this increases to 5d4+5 hit points."
-			],
-			"source": "YokaiPatron",
-			"featureType": [
-				"EI"
-			]
-		},
-		{
-			"name": "Yokai Reserves",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Warlock"
-						}
-					},
-					"patron": "Yokai",
-				}
-			],
-			"entries": [
-				"Once per long rest, as an action, you can tap into extra magic reserves and regain a Warlock spell slot."
-			],
-			"source": "YokaiPatron",
-			"featureType": [
-				"EI"
-			]
-		},
-		{
-			"name": "Spiritual Bond",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"class": {
-							"name": "Warlock"
-						}
-					},
-					"patron": "Yokai"
-				}
-			],
-			"entries": [
-				"When you use the Summon Guardian Spirit feature; its unarmed attack now deals 2d8+4 magic bludgeoning damage. In addition, once per day the Guardian Spirit may take the multi-attack Action twice, and when the Guardian reaches 0 hit points, you can use your reaction to spend a Warlock spell slot and restore it to full health."
-			],
-			"source": "YokaiPatron",
-			"featureType": [
-				"EI"
-			]
-		},
 	"subclassFeature": [
 		{
 			"name": "The Yokai",
