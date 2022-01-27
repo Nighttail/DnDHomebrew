@@ -30,7 +30,7 @@
 				"blur",
 				"calm emotions",
 				"pass without trace",
-				"catnap",
+				"catnap|xge",
 				"greater invisibility",
 				"compulsion",
 				"animate objects",
@@ -56,7 +56,7 @@
 						],
 						"s3": [
 							"pass without trace",
-							"catnap"
+							"catnap|xge"
 						],
 						"s4": [
 							"greater invisibility",
@@ -64,7 +64,7 @@
 						],
 						"s5": [
 							"animate objects",
-							"bigby's hand"
+							"Bigby's hand"
 						]
 					}
 				}
@@ -112,7 +112,7 @@
 								],
 								[
 									"3rd",
-									"{@spell pass without trace}, {@spell catnap}"
+									"{@spell pass without trace}, {@spell catnap|xge}"
 								],
 								[
 									"4th",
@@ -120,7 +120,7 @@
 								],
 								[
 									"5th",
-									"{@spell animate objects}, {@spell bigby's hand}"
+									"{@spell animate objects}, {@spell Bigby's hand}"
 								]
 							]
 						}
