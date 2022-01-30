@@ -1,0 +1,224 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundaneFirearms",
+				"abbreviation": "HbrewMF",
+				"full": "Homebrew Mundane Firearms",
+				"url": "https://homebrewery.naturalcrit.com/share/1zhGOOzg_5HiX_U6hs7cpSxzjAPchqV-L94riSZ2L2sIR",
+				"authors": [
+					"Nighttail"
+				],
+				"convertedBy": [
+					"Nighttail"
+				],
+				"version": "1"
+			}
+		],
+		"dateAdded": 1593285189,
+		"dateLastModified": 1633192865
+	},
+	"item": [
+		{
+			"name": "Dwarven Drakegun",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "firearm",
+			"rarity": "none",
+			"weight": 15,
+			"value": 50000,
+			"dmg1": "2d6",
+			"dmgType": "F",
+			"property": [
+				"AF",
+				"2H",
+				"MICP",
+				"MIMF",
+				"MIRL"
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@bold Capacity}: 1",
+						"{@bold Misfire}: 3",
+						"{@bold Ammunition Type}: {@item Alchemist's Fire (flask)|PHB}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"On a hit, this weapon deals an additional {@dice 2d6} acid damage."
+					]
+				}
+			],
+			"range": "cone 15 ft. or line 60",
+			"source": "MundaneItems",
+			"firearm": true
+		},
+		{
+			"name": "Flintlock Pistol",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "firearm",
+			"rarity": "none",
+			"weight": 4,
+			"value": 25000,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"AF",
+				"LD",
+				"L",
+				"MIPB",
+				"MIMF",
+				"MIRL"
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@bold Misfire}: 1",
+						"{@bold Ammunition Type}: {@item Metal Shot|MundaneItems}"
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "MundaneItems",
+			"firearm": true
+		},
+		{
+			"name": "Two-barrel Flintlock Pistol",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "firearm",
+			"rarity": "none",
+			"weight": 5,
+			"value": 40000,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"AF",
+				"L",
+				"MIPB",
+				"MICP",
+				"MIMF",
+				"MIRL"
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@bold Capacity}: 2 shots",
+						"{@bold Misfire}: 2",
+						"{@bold Ammunition Type}: {@item Metal Shot|MundaneItems}"
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "MundaneItems",
+			"firearm": true
+		},
+		{
+			"name": "Three-barrel Flintlock Pistol",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "firearm",
+			"rarity": "none",
+			"weight": 5,
+			"value": 55000,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"AF",
+				"L",
+				"MIPB",
+				"MICP",
+				"MIMF",
+				"MIRL"
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@bold Capacity}: 3 shots",
+						"{@bold Misfire}: 3",
+						"{@bold Ammunition Type}: {@item Metal Shot|MundaneItems}"
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "MundaneItems",
+			"firearm": true
+		},
+		{
+			"name": "Metal Shot",
+			"type": "AF",
+			"rarity": "none",
+			"value": 50,
+			"weight": 0.2,
+			"source": "MundaneItems"
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "MICP",
+			"source": "MundaneItems",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Capacity",
+					"entries": [
+						"A weapon's capacity is the number of shots it can hold at one time. When a weapon has been fired a number of times equal to its capacity, it must be reloaded before firing again."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MIRL",
+			"source": "MundaneItems",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reloading a weapon replaces your next attack you would make with the weapon, refilling the ammunition in the weapon up to its capacity. If you prefer, you may instead use an action to reload your weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MIMF",
+			"source": "MundaneItems",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"If your natural roll for a ranged attack falls at or below the misfire score of the firearm you are using, you suffer a misfire. Your attack misses, any ammo you used in the attack is expended, and your firearm becomes broken. You must repair a broken firearm before using it.",
+						"If you don't need to make a ranged attack roll when firing a weapon with a misfire score, roll a d20 to determine if it misfires.",
+						"To repair a broken firearm you must use your action to make an Intelligence (Sleight of Hand) check with a DC equal to 10 + the weapons Misfire score."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MIPB",
+			"source": "MundaneItems",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Point-blank",
+					"entries": [
+						"Point-blank weapons can be fired at creatures within 5ft of the user without suffering disadvantage on the attack roll."
+					]
+				}
+			]
+		}
+	]
+}
