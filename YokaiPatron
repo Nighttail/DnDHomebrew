@@ -245,7 +245,7 @@
             		],
 			"header": 2,
 			"entries": [
-				"At 10th level your attunement to the spirits ward you against death. Once per day you gain the benefit of the {@spell Death Ward} spell.",
+				"At 10th level your patron's magic wards you against death. Once per day you gain the benefit of the {@spell Death Ward} spell.",
 				"When the ward is triggered you can use your reaction to make a ranged spell attack using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {@dice 1d10} plus your warlock level, the temporary hit points increase with 1d10 at leve1 17."
 			]
 		},
