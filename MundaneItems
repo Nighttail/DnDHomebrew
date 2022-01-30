@@ -1,0 +1,55 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MundaneItems",
+				"abbreviation": "HbrewMI",
+				"full": "Homebrew Mundane Items",
+				"authors": [
+					"Nighttail"
+				],
+				"convertedBy": [
+					"Nighttail"
+				],
+				"url": "https://homebrewery.naturalcrit.com/share/1ZIoAxMb6iPbSWU4j9q35gCLmRwmsMrXn0wVW-gLTFDnF",
+				"version": "1.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+	"item": [
+		{
+			"name": "Potion Belt",
+			"source": "HbrewMI",
+			"page": 1,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000
+			"entries": [
+				"This belt has small holding compartments for flasks and vials. The belt can hold up to 3 potions. Drinking a potion from the belt is a bonus action."
+		},
+		{
+			"name": "Composite Bow",
+			"source": "HbrewMI",
+			"page": 1,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+	]
+}
