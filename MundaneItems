@@ -22,7 +22,7 @@
 	"item": [
 		{
 			"name": "Potion Belt",
-			"source": "HbrewMI",
+			"source": "MundaneItems",
 			"page": 1,
 			"type": "G",
 			"rarity": "none",
@@ -33,16 +33,17 @@
 		},
 		{
 			"name": "Composite Bow",
-			"source": "HbrewMI",
+			"source": "MundaneItems",
 			"page": 1,
 			"type": "R",
 			"rarity": "none",
 			"weight": 2,
-			"value": 7500,
+			"value": 5000,
 			"weaponCategory": "martial",
 			"property": [
 				"A",
 				"2H"
+				"F"
 			],
 			"range": "80/320",
 			"dmg1": "1d6",
@@ -51,5 +52,180 @@
 			"weapon": true,
 			"ammoType": "arrow|phb"
 		},
+		{
+			"name": "Wrist Crossbow",
+			"source": "MundaneItems",
+			"page": 1,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 15000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This small crossbow is mounted on the wrist with a special firing mechanism leading to your palm. With the crossbow equiped your hand still counts as free, but if you want to trigger the firing mechanism you can't hold anything in your hand.",
+						"Shooting this crossbow at a target within 5ft of you doesn't impose disadvantage on the attack roll."
+					]
+				}
+			],
+			"range": "30/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Elven Glaive",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"F",
+				"R"
+			],
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Falchion",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 4,
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"property": [],
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Heavy Flail",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 7,
+			"dmg1": "1d12",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Katana",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"V",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When wielded with one hand this weapon gains the finesse property."
+					]
+				}
+			],
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Kusarigama",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L",
+				"T",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This sickle-like weapon has a chain with a weight at the end. When you make a ranged attack by throwing the kusarigama you can pull the weapon back to your hand by the chain as part of the attack."
+					]
+				}
+			],
+			"range": "10/20",
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Nodachi",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "3d4",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"H"
+			],
+			"source": "MundaneItems"
+		},
+		{
+			"name": "Shuriken",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 40,
+			"weight": 0.25,
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"T",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You can draw and throw up to 3 shuriken as part of an attack when you take the attack action; for each thrown above the first you add an additional damage die (make one single attack roll for all Shurikens)."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "MundaneItems"
+		}
 	]
 }
