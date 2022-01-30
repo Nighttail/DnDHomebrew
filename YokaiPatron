@@ -224,7 +224,7 @@
             		],
 			"header": 2,
 			"entries": [
-				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the start of your next turn.",
+				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the end of your next turn.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 			]
 		},
