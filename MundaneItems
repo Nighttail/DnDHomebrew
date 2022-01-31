@@ -85,6 +85,61 @@
 			"ammoType": "crossbow bolt|phb"
 		},
 		{
+			"name": "Repeating Wrist Crossbow",
+			"source": "MundaneItems",
+			"page": 1,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 30000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"RLD",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This small crossbow is mounted on the wrist with a special firing mechanism leading to your palm. With the crossbow equiped your hand still counts as free, but if you want to trigger the firing mechanism you can't hold anything in your hand.",
+						"Shooting this crossbow at a target within 5ft of you doesn't impose disadvantage on the attack roll."
+					]
+				}
+			],
+			"range": "30/60",
+			"reload": 3,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Repeating Crossbow",
+			"source": "MundaneItems",
+			"page": 1,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 30000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"2H",
+				"RLD"
+			],
+			"range": "80/320",
+			"reload": 3,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
 			"name": "Elven Glaive",
 			"type": "M",
 			"weapon": true,
