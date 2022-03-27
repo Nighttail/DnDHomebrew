@@ -42,3 +42,16 @@
 				"The bones in your body have been replaced with pure Adamantine. Your weight increases by 25lbs. Any critical hit against you becomes a normal hit."
 			]
 		},
+	},
+	"item": [
+		{
+			"name": "Coin of Fate",
+			"wondrous": true,
+			"tier": "major",
+			"img": "https://i.imgur.com/a8Z5KAC.png",
+			"rarity": "rare",
+			"source": "MagicItemsHomebrew",
+			"entries": [
+				"When you make an ability check, saving throw or attack roll of any kind, you can, after seeing the result, choose to reroll the die. You can then choose which of the results to use. Once the coin has been used it dissappears."
+			]
+		},
