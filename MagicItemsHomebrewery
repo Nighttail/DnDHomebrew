@@ -30,8 +30,6 @@
 				"This small locket contains a mirror. A creature that wears the locket after looking into the mirror grows a large, lush, luxurous mustache, whether they normally can grow one or not. The mustache falls off if the creature takes off the locket."
 			]
 		},
-	},
-	"item": [
 		{
 			"name": "Adamantine Skeleton",
 			"wondrous": true,
@@ -42,8 +40,6 @@
 				"The bones in your body have been replaced with pure Adamantine. Your weight increases by 25lbs. Any critical hit against you becomes a normal hit."
 			]
 		},
-	},
-	"item": [
 		{
 			"name": "Coin of Fate",
 			"wondrous": true,
@@ -54,5 +50,6 @@
 			"entries": [
 				"When you make an ability check, saving throw or attack roll of any kind, you can, after seeing the result, choose to reroll the die. You can then choose which of the results to use. Once the coin has been used it dissappears."
 			]
-		},
-	}
+		}
+	]
+}
