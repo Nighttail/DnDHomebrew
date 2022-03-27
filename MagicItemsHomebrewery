@@ -1,1 +1,44 @@
-
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MagicItemsHomebrew",
+				"abbreviation": "MIHbrew",
+				"full": "Homebrew Magic Items",
+				"authors": [
+					"Nighttail"
+				],
+				"convertedBy": [
+					"Nighttail"
+				],
+				"url": "https://homebrewery.naturalcrit.com/share/1nUMHuWBB6peCTYvPpkvoP-erFo5MQbOA20CnPX2UtRmU",
+				"version": "1.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+	"item": [
+		{
+			"name": "Locket of Instant Mustache",
+			"wondrous": true,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "MagicItemsHomebrew",
+			"entries": [
+				"This small locket contains a mirror. A creature that wears the locket after looking into the mirror grows a large, lush, luxurous mustache, whether they normally can grow one or not. The mustache falls off if the creature takes off the locket."
+			]
+		},
+	},
+	"item": [
+		{
+			"name": "Adamantine Skeleton",
+			"wondrous": true,
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "MagicItemsHomebrew",
+			"entries": [
+				"The bones in your body have been replaced with pure Adamantine. Your weight increases by 25lbs. Any critical hit against you becomes a normal hit."
+			]
+		},
