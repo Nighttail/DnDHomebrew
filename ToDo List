@@ -18,6 +18,9 @@ Returning weapon (firearm) might use a Blink Dog's saliva instead, mixed with th
 
 Allow the Dwarven Drakefire gun to be modified to fire other alchemical compounds too? Like healing potions. Health grenade launcher like Caira from Evolve.
 Change the Drakefire Gun to mimic a Burning Hands spell (Dex save or 3d6 fire damage). Maybe still allow a longer range line, like 30ft.
+Guns don't have misfire by default, some do. Make the Drakefire gun have "Misfire: when you fire this gun roll a D20, on a 1 the alchemical compound explodes.
+The gun doesn't fire and all creatures within 5ft of the wielder must make a Dex save or take (DMG equal to dmg of weapon), or half that on a success. The
+wielder automatically fails the saving throw."
 
 Bad News from Matt Mercer's Gunslinger. It's a Sniper Rifle, but balance it by giving disadvantage and max range is short-range if one moves on a turn it shoots.
 All guns having Loading instead of Reload and 1 higher dmg dice is probably not overpowered, even with Returning infusion, given the Misfire chance. The Sniper would be
